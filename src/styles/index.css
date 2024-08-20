@@ -10,3 +10,35 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://fondosmil.co/fondo/56676.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.form-control {
+    max-width: 100%;
+}
+.list-group-item {
+    font-size: 0.875rem;
+}
+.btn-danger {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+}
+p {
+    color: white;
+}
